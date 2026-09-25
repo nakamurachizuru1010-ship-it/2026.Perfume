@@ -127,6 +127,7 @@ public class Main {
 			b_score += 1;
 			p_score += 1;
 			c_score += 1;
+			break;
 		} else if (ans3 == 2) {
 			w_score += 1;
 			s_score += 1;
@@ -134,6 +135,7 @@ public class Main {
 			h_score += 1;
 			arma_score += 1;
 			a_score += 1;
+			break;
 		} else {
 			System.out.println("※ 1 または 2 で入力してください。️");
 		}
@@ -147,6 +149,7 @@ public class Main {
 			f_score += 1;
 			l_score += 2;
 			ani_score += 2;
+			break;
 		} else if (ans4 == 2) {
 			w_score += 2;
 			s_score += 1;
@@ -154,6 +157,7 @@ public class Main {
 			a_score += 1;
 			arma_score += 1;
 			m_score += 2;
+			break;
 		} else {
 			System.out.println("※ 1 または 2 で入力してください。");
 		}
@@ -166,12 +170,14 @@ public class Main {
 			g_score += 1;
 			a_score += 1;
 			h_score += 1;
+			break;
 		} else if (ans5 == 2) {
 			o_score += 2;
 			l_score += 2;
 			an_score += 2;
 			m_score += 1;
 			b_score += 1;
+			break;
 		} else {
 			System.out.println("※ 1 または 2 で入力してください。");
 		}
@@ -184,11 +190,13 @@ public class Main {
 			m_score += 1;
 			b_score += 1;
 			w_score += 1;
+			break;
 		} else if (ans6 == 2) {
 			g_score += 2;
 			a_score += 2;
 			h_score += 2;
 			s_score += 1;
+			break;
 		} else {
 			System.out.println("※ 1 または 2 で入力してください。");
 		}
@@ -201,11 +209,13 @@ public class Main {
 			an_score += 2;
 			o_score += 1;
 			c_score += 1;
+			break;
 		} else if (ans7 == 2) {
 			h_score += 2;
 			g_score += 1;
 			s_score += 1;
 			arma_score += 2;
+			break;
 		} else {
 			System.out.println("※ 1 または 2 で入力してください。");
 		}
@@ -218,12 +228,14 @@ public class Main {
 			a_score += 2;
 			g_score += 1;
 			h_score += 1;
+			break;
 		} else if (ans8 == 2) {
 			w_score += 1;
 			sp_score += 2;
 			o_score += 1;
 			l_score += 1;
 			m_score += 1;
+			break;
 		} else {
 			System.out.println("※ 1 または 2 で入力してください。");
 		}
@@ -236,12 +248,14 @@ public class Main {
 			m_score += 2;
 			g_score += 1;
 			s_score += 1;
+			break;
 		} else if (ans9 == 2) {
 			sp_score += 2;
 			ani_score += 2;
 			f_score += 1;
 			c_score += 1;
 			p_score += 1;
+			break;
 		} else {
 			System.out.println("※ 1 または 2 で入力してください。");
 		}
@@ -251,10 +265,11 @@ public class Main {
 		int ans10 = scan.nextInt();
 		if (ans10 == 1) {
 			a_score += 3;
-
+			break;
 		} else if (ans10 == 2) {
 			w_score += 3;
 			g_score += 1;
+			break;
 		} else {
 			System.out.println("※ 1 または 2 で入力してください。");
 		}
