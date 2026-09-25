@@ -365,6 +365,7 @@ public class Main {
 			System.out.println("【概要】");
 			System.out.println(resultPerfume1.getDetail());
 			System.out.println("==================================");
+			//診断終了
 
 			//結果一覧
 		} else if (title.equals("2") || title.equals("２")) {
