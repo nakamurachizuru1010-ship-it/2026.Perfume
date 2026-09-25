@@ -287,7 +287,7 @@ public class Main {
 				}
 			}
 			//		結果
-			// メモ：一番高いスコアを追跡する変数と、結果を入れる変
+			// メモ：一番高いスコアを追跡する変数と、結果を入れる変数
 			int maxScore = -1;
 			Perfume resultPerfume1 = p1; // 初期値としてp1をセット
 
