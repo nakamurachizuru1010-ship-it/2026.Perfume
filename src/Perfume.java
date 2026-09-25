@@ -11,6 +11,11 @@ public class Perfume {
 		this.detail = d;
 	}
 
+	//	AAアート内に診断結果を表示
+	public void resultArt() {
+
+	}
+
 	public int getId() {
 		return id;
 	}
