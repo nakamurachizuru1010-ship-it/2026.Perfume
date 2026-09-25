@@ -115,163 +115,179 @@ public class Main {
 			}
 		}
 
-		System.out.println("Q3:香水をつけることで、どんな印象を与えたい？");
-		System.out.println("1 大人っぽさ･ミステリアス  2 親しみやすさ･清潔感");
-		int ans3 = scan.nextInt();
-		if (ans3 == 1) {
-			w_score += 1;
-			sp_score += 1;
-			o_score += 1;
-			f_score += 1;
-			l_score += 1;
-			b_score += 1;
-			p_score += 1;
-			c_score += 1;
-			break;
-		} else if (ans3 == 2) {
-			w_score += 1;
-			s_score += 1;
-			g_score += 1;
-			h_score += 1;
-			arma_score += 1;
-			a_score += 1;
-			break;
-		} else {
-			System.out.println("※ 1 または 2 で入力してください。️");
+		while (true) {
+			System.out.println("Q3:香水をつけることで、どんな印象を与えたい？");
+			System.out.println("1 大人っぽさ･ミステリアス  2 親しみやすさ･清潔感");
+			int ans3 = scan.nextInt();
+			if (ans3 == 1) {
+				w_score += 1;
+				sp_score += 1;
+				o_score += 1;
+				f_score += 1;
+				l_score += 1;
+				b_score += 1;
+				p_score += 1;
+				c_score += 1;
+				break;
+			} else if (ans3 == 2) {
+				w_score += 1;
+				s_score += 1;
+				g_score += 1;
+				h_score += 1;
+				arma_score += 1;
+				a_score += 1;
+				break;
+			} else {
+				System.out.println("※ 1 または 2 で入力してください。️");
+			}
 		}
 
-		System.out.println("Q4:割と強い匂いが好き？");
-		System.out.println("1 強いほうが好き  2 弱い方が好き");
-		int ans4 = scan.nextInt();
-		if (ans4 == 1) {
-			sp_score += 2;
-			o_score += 1;
-			f_score += 1;
-			l_score += 2;
-			ani_score += 2;
-			break;
-		} else if (ans4 == 2) {
-			w_score += 2;
-			s_score += 1;
-			g_score += 1;
-			a_score += 1;
-			arma_score += 1;
-			m_score += 2;
-			break;
-		} else {
-			System.out.println("※ 1 または 2 で入力してください。");
+		while (true) {
+			System.out.println("Q4:割と強い匂いが好き？");
+			System.out.println("1 強いほうが好き  2 弱い方が好き");
+			int ans4 = scan.nextInt();
+			if (ans4 == 1) {
+				sp_score += 2;
+				o_score += 1;
+				f_score += 1;
+				l_score += 2;
+				ani_score += 2;
+				break;
+			} else if (ans4 == 2) {
+				w_score += 2;
+				s_score += 1;
+				g_score += 1;
+				a_score += 1;
+				arma_score += 1;
+				m_score += 2;
+				break;
+			} else {
+				System.out.println("※ 1 または 2 で入力してください。");
+			}
 		}
 
-		System.out.println("Q5:自分が落ち着く時間帯は？");
-		System.out.println("1 昼  2 夜");
-		int ans5 = scan.nextInt();
-		if (ans5 == 1) {
-			s_score += 1;
-			g_score += 1;
-			a_score += 1;
-			h_score += 1;
-			break;
-		} else if (ans5 == 2) {
-			o_score += 2;
-			l_score += 2;
-			an_score += 2;
-			m_score += 1;
-			b_score += 1;
-			break;
-		} else {
-			System.out.println("※ 1 または 2 で入力してください。");
+		while (true) {
+			System.out.println("Q5:自分が落ち着く時間帯は？");
+			System.out.println("1 昼  2 夜");
+			int ans5 = scan.nextInt();
+			if (ans5 == 1) {
+				s_score += 1;
+				g_score += 1;
+				a_score += 1;
+				h_score += 1;
+				break;
+			} else if (ans5 == 2) {
+				o_score += 2;
+				l_score += 2;
+				an_score += 2;
+				m_score += 1;
+				b_score += 1;
+				break;
+			} else {
+				System.out.println("※ 1 または 2 で入力してください。");
+			}
 		}
 
-		System.out.println("Q6:休日の過ごし方は？");
-		System.out.println("1 インドアが多い  2 アウトドアが多い");
-		int ans6 = scan.nextInt();
-		if (ans6 == 1) {
-			p_score += 1;
-			m_score += 1;
-			b_score += 1;
-			w_score += 1;
-			break;
-		} else if (ans6 == 2) {
-			g_score += 2;
-			a_score += 2;
-			h_score += 2;
-			s_score += 1;
-			break;
-		} else {
-			System.out.println("※ 1 または 2 で入力してください。");
+		while (true) {
+			System.out.println("Q6:休日の過ごし方は？");
+			System.out.println("1 インドアが多い  2 アウトドアが多い");
+			int ans6 = scan.nextInt();
+			if (ans6 == 1) {
+				p_score += 1;
+				m_score += 1;
+				b_score += 1;
+				w_score += 1;
+				break;
+			} else if (ans6 == 2) {
+				g_score += 2;
+				a_score += 2;
+				h_score += 2;
+				s_score += 1;
+				break;
+			} else {
+				System.out.println("※ 1 または 2 で入力してください。");
+			}
 		}
 
-		System.out.println("Q7:ほっと一息つくなら？");
-		System.out.println("1 ほのかな甘みと深みのある温かいお茶  2 鼻に抜ける清涼感とスッキリしたお茶");
-		int ans7 = scan.nextInt();
-		if (ans7 == 1) {
-			b_score += 2;
-			an_score += 2;
-			o_score += 1;
-			c_score += 1;
-			break;
-		} else if (ans7 == 2) {
-			h_score += 2;
-			g_score += 1;
-			s_score += 1;
-			arma_score += 2;
-			break;
-		} else {
-			System.out.println("※ 1 または 2 で入力してください。");
+		while (true) {
+			System.out.println("Q7:ほっと一息つくなら？");
+			System.out.println("1 ほのかな甘みと深みのある温かいお茶  2 鼻に抜ける清涼感とスッキリしたお茶");
+			int ans7 = scan.nextInt();
+			if (ans7 == 1) {
+				b_score += 2;
+				an_score += 2;
+				o_score += 1;
+				c_score += 1;
+				break;
+			} else if (ans7 == 2) {
+				h_score += 2;
+				g_score += 1;
+				s_score += 1;
+				arma_score += 2;
+				break;
+			} else {
+				System.out.println("※ 1 または 2 で入力してください。");
+			}
 		}
 
-		System.out.println("Q8:好きな季節は");
-		System.out.println("1 春・夏  2 秋・冬");
-		int ans8 = scan.nextInt();
-		if (ans8 == 1) {
-			s_score += 2;
-			a_score += 2;
-			g_score += 1;
-			h_score += 1;
-			break;
-		} else if (ans8 == 2) {
-			w_score += 1;
-			sp_score += 2;
-			o_score += 1;
-			l_score += 1;
-			m_score += 1;
-			break;
-		} else {
-			System.out.println("※ 1 または 2 で入力してください。");
+		while (true) {
+			System.out.println("Q8:好きな季節は");
+			System.out.println("1 春・夏  2 秋・冬");
+			int ans8 = scan.nextInt();
+			if (ans8 == 1) {
+				s_score += 2;
+				a_score += 2;
+				g_score += 1;
+				h_score += 1;
+				break;
+			} else if (ans8 == 2) {
+				w_score += 1;
+				sp_score += 2;
+				o_score += 1;
+				l_score += 1;
+				m_score += 1;
+				break;
+			} else {
+				System.out.println("※ 1 または 2 で入力してください。");
+			}
 		}
 
-		System.out.println("Q9:香水に一番求めている効果は");
-		System.out.println("1 リフレッシュ・安心感  2 アピール・印象上げ");
-		int ans9 = scan.nextInt();
-		if (ans9 == 1) {
-			arma_score += 2;
-			m_score += 2;
-			g_score += 1;
-			s_score += 1;
-			break;
-		} else if (ans9 == 2) {
-			sp_score += 2;
-			ani_score += 2;
-			f_score += 1;
-			c_score += 1;
-			p_score += 1;
-			break;
-		} else {
-			System.out.println("※ 1 または 2 で入力してください。");
+		while (true) {
+			System.out.println("Q9:香水に一番求めている効果は");
+			System.out.println("1 リフレッシュ・安心感  2 アピール・印象上げ");
+			int ans9 = scan.nextInt();
+			if (ans9 == 1) {
+				arma_score += 2;
+				m_score += 2;
+				g_score += 1;
+				s_score += 1;
+				break;
+			} else if (ans9 == 2) {
+				sp_score += 2;
+				ani_score += 2;
+				f_score += 1;
+				c_score += 1;
+				p_score += 1;
+				break;
+			} else {
+				System.out.println("※ 1 または 2 で入力してください。");
+			}
 		}
 
-		System.out.println("Q10:思わず深呼吸したくなる景色は？");
-		System.out.println("1 澄んだ潮風を感じる海  2 木の香りが漂う森");
-		int ans10 = scan.nextInt();
-		if (ans10 == 1) {
-			a_score += 3;
-			break;
-		} else if (ans10 == 2) {
-			w_score += 3;
-			g_score += 1;
-			break;
-		} else {
-			System.out.println("※ 1 または 2 で入力してください。");
+		while (true) {
+			System.out.println("Q10:思わず深呼吸したくなる景色は？");
+			System.out.println("1 澄んだ潮風を感じる海  2 木の香りが漂う森");
+			int ans10 = scan.nextInt();
+			if (ans10 == 1) {
+				a_score += 3;
+				break;
+			} else if (ans10 == 2) {
+				w_score += 3;
+				g_score += 1;
+				break;
+			} else {
+				System.out.println("※ 1 または 2 で入力してください。");
+			}
 		}
 		//		結果
 	}
