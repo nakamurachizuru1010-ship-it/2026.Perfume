@@ -45,7 +45,7 @@ public class Main {
 		// title1･・･丸ごと診断　title2･・･結果一覧
 		System.out.println("");
 		System.out.println("【貴方に合う香水診断】");
-		System.out.println("数字で答えてください 1 or 2 (半角)");
+		System.out.println("数字で答えてください 1 or 2 (半角おすすめ)");
 		System.out.println("1: 診断スタート");
 		System.out.println("2: 香水一覧を見る");
 		String title = scan.next();
