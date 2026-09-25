@@ -1,7 +1,7 @@
  1   ウッディノート       > w_score
  2   シトラスノート       > s_score
  3   グリーンノート       > g_score
- 4   スパイシーノート     > s_score
+ 4   スパイシーノート     > sp_score
  5   オリエンタルノート   > o_score
  6   アクアティックノート > a_score
  7   フゼアノート         > f_score
@@ -11,6 +11,6 @@
  11  バルサムノート       > b_score
  12  アンバーノート       > an_score
  13  シプレノート         > c_score
- 14  パウダリーノート     > _score
+ 14  パウダリーノート     > p_score
  15  ムスキーノート       > m_score
  16  アロマティックノート > arma_score
