@@ -4,6 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
+		//		各種類概要
 		Perfume p1 = new Perfume(1, "ウッディノート", "落ち着いた・知的な", "");
 		Perfume p2 = new Perfume(2, "シトラスノート", "", "");
 		Perfume p3 = new Perfume(3, "グリーンノート", "", "");
@@ -20,6 +21,7 @@ public class Main {
 		Perfume p14 = new Perfume(14, "パウダリーノート", "", "");
 		Perfume p15 = new Perfume(15, "ムスキーノート", "", "");
 
+		//		各種類スコア
 		int w_score = 0;
 		int s_scoer = 0;
 		int g_score = 0;
@@ -36,6 +38,7 @@ public class Main {
 		int p_scoer = 0;
 		int m_scoer = 0;
 
+		//		結果
 		System.out.println("【貴方に合う香水】");
 		System.out.println("数字で答えてください(1 or 2)");
 		System.out.println(" ");
@@ -58,7 +61,6 @@ public class Main {
 
 		System.out.println("Q5:自分が落ち着く時間帯は？");
 		System.out.println("1 昼  2 夜");
-		System.out.println("回答> ");
 		int ans5 = scan.nextInt();
 
 		System.out.println("Q6:休日の過ごし方は？");
@@ -80,6 +82,23 @@ public class Main {
 		System.out.println("Q10:思わず深呼吸したくなる景色は？");
 		System.out.println("1 澄んだ潮風を感じる海  2 木の香りが漂う森");
 		int ans10 = scan.nextInt();
+
+		//		結果
+		System.out.println("結果");
+		System.out.println("貴方に合う香水は・･・");
+		System.out.println("ーーーーーーー");
+		System.out.println("【" + resultPerfume.getName() + "】");
+		System.out.println("ーーーーーーー");
+
+		System.out.println(resultPerfume.getArt());
+
+		System.out.println();
+		System.out.println(resultPerfume.getDetail());
+
+		System.out.println();
+		System.out.println("他の候補");
+		System.out.println("・" + p2.getName());
+		System.out.println("・" + p3.getName());
 
 	}
 }
