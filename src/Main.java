@@ -4,16 +4,6 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		//		//		香水AAART
-		//		String pbottle1 = """
-		//				      ( () )
-		//				     ／)   (＼
-		//				  .------------.
-		//				 /              \\
-		//				|                |
-		//				|                |
-		//				\\\\______________// """;
-
 		//		各種類概要　メモ：\n = 改行
 		Perfume p1 = new Perfume("ウッディノート", "落ち着いた・知的な \n奥深く落ち着いた温かみを感じる香り。木々の頼もしくリラックス感のある香り");
 		Perfume p2 = new Perfume("シトラスノート", "フレッシュ・若々しい \n柑橘系が中心の香り。万人受けしやすいためどんなシーンでも使える");
@@ -291,6 +281,83 @@ public class Main {
 			}
 		}
 		//		結果
+		// メモ：一番高いスコアを追跡する変数と、結果を入れる変
+		int maxScore = -1;
+		Perfume resultPerfume1 = p1; // 初期値としてp1をセット
+
+		// メモ：順番にスコアをチェック最大値を更新
+		if (w_score > maxScore) {
+			maxScore = w_score;
+			resultPerfume1 = p1;
+		} // ウッディノート
+		if (s_score > maxScore) {
+			maxScore = s_score;
+			resultPerfume1 = p2;
+		} // シトラスノート
+		if (g_score > maxScore) {
+			maxScore = g_score;
+			resultPerfume1 = p3;
+		} // グリーンノート
+		if (sp_score > maxScore) {
+			maxScore = sp_score;
+			resultPerfume1 = p4;
+		} // スパイシーノート
+		if (o_score > maxScore) {
+			maxScore = o_score;
+			resultPerfume1 = p5;
+		} // オリエンタルノート
+		if (a_score > maxScore) {
+			maxScore = a_score;
+			resultPerfume1 = p6;
+		} // アクアティックノート
+		if (f_score > maxScore) {
+			maxScore = f_score;
+			resultPerfume1 = p7;
+		} // フゼアノート
+		if (l_score > maxScore) {
+			maxScore = l_score;
+			resultPerfume1 = p8;
+		} // レザーノート
+		if (h_score > maxScore) {
+			maxScore = h_score;
+			resultPerfume1 = p9;
+		} // ハーバルノート
+		if (ani_score > maxScore) {
+			maxScore = ani_score;
+			resultPerfume1 = p10;
+		} // アニマルノート
+		if (b_score > maxScore) {
+			maxScore = b_score;
+			resultPerfume1 = p11;
+		} // バルサムノート
+		if (an_score > maxScore) {
+			maxScore = an_score;
+			resultPerfume1 = p12;
+		} // アンバーノート
+		if (c_score > maxScore) {
+			maxScore = c_score;
+			resultPerfume1 = p13;
+		} // シプレノート
+		if (p_score > maxScore) {
+			maxScore = p_score;
+			resultPerfume1 = p14;
+		} // パウダリーノート
+		if (m_score > maxScore) {
+			maxScore = m_score;
+			resultPerfume1 = p15;
+		} // ムスキーノート
+		if (arma_score > maxScore) {
+			maxScore = arma_score;
+			resultPerfume1 = p16;
+		} // アロマティックノート
+
+		// メモ：計算した香水（resultPerfume）の診断結果
+		System.out.println("\n==================================");
+		resultPerfume1.resultArt(); // AAアート＋診断結果
+		System.out.println();
+		System.out.println("【概要】");
+		System.out.println(resultPerfume1.getDetail());
+		System.out.println("==================================");
 
 	}
 }

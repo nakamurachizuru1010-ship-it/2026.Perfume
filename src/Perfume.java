@@ -10,7 +10,7 @@ public class Perfume {
 	}
 
 	//	AAアート内に診断結果を表示
-	public void ResultCard() {
+	public void resultArt() {
 		System.out.println("           [===]           ");
 		System.out.println("         .-------.         ");
 		System.out.println("        / 診断結果 \\        ");
