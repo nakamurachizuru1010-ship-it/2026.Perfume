@@ -368,22 +368,54 @@ public class Main {
 
 			//結果一覧
 		} else if (title.equals("2") || title.equals("２")) {
-			System.out.println("・" + p1.getName() + p1.getDetail());
-			System.out.println("・" + p2.getName() + p2.getDetail());
-			System.out.println("・" + p3.getName() + p3.getDetail());
-			System.out.println("・" + p4.getName() + p4.getDetail());
-			System.out.println("・" + p5.getName() + p5.getDetail());
-			System.out.println("・" + p6.getName() + p6.getDetail());
-			System.out.println("・" + p7.getName() + p7.getDetail());
-			System.out.println("・" + p8.getName() + p8.getDetail());
-			System.out.println("・" + p9.getName() + p9.getDetail());
-			System.out.println("・" + p10.getName() + p10.getDetail());
-			System.out.println("・" + p11.getName() + p11.getDetail());
-			System.out.println("・" + p12.getName() + p12.getDetail());
-			System.out.println("・" + p13.getName() + p13.getDetail());
-			System.out.println("・" + p14.getName() + p14.getDetail());
-			System.out.println("・" + p15.getName() + p15.getDetail());
-			System.out.println("・" + p16.getName() + p16.getDetail());
+			System.out.println("・" + p1.getName());
+			System.out.println("  " + p1.getDetail());
+			System.out.println("");
+			System.out.println("・" + p2.getName());
+			System.out.println("  " + p2.getDetail());
+			System.out.println("");
+			System.out.println("・" + p3.getName());
+			System.out.println("  " + p3.getDetail());
+			System.out.println("");
+			System.out.println("・" + p4.getName());
+			System.out.println("  " + p4.getDetail());
+			System.out.println("");
+			System.out.println("・" + p5.getName());
+			System.out.println("  " + p5.getDetail());
+			System.out.println("");
+			System.out.println("・" + p6.getName());
+			System.out.println("  " + p6.getDetail());
+			System.out.println("");
+			System.out.println("・" + p7.getName());
+			System.out.println("  " + p7.getDetail());
+			System.out.println("");
+			System.out.println("・" + p8.getName());
+			System.out.println("  " + p8.getDetail());
+			System.out.println("");
+			System.out.println("・" + p9.getName());
+			System.out.println("  " + p9.getDetail());
+			System.out.println("");
+			System.out.println("・" + p10.getName());
+			System.out.println("  " + p10.getDetail());
+			System.out.println("");
+			System.out.println("・" + p11.getName());
+			System.out.println("  " + p11.getDetail());
+			System.out.println("");
+			System.out.println("・" + p12.getName());
+			System.out.println("  " + p12.getDetail());
+			System.out.println("");
+			System.out.println("・" + p13.getName());
+			System.out.println("  " + p13.getDetail());
+			System.out.println("");
+			System.out.println("・" + p14.getName());
+			System.out.println("  " + p14.getDetail());
+			System.out.println("");
+			System.out.println("・" + p15.getName());
+			System.out.println("  " + p15.getDetail());
+			System.out.println("");
+			System.out.println("・" + p16.getName());
+			System.out.println("  " + p16.getDetail());
+			System.out.println("");
 		}
 	}
 }
