@@ -14,23 +14,23 @@ public class Main {
 		//				|                |
 		//				\\\\______________// """;
 
-		//		各種類概要
-		Perfume p1 = new Perfume(1, "ウッディノート", "落ち着いた・知的な"
-				+ "奥深く落ち着いた温かみを感じる香り。木々の頼もしくリラックス感のある香り。");
-		Perfume p2 = new Perfume(2, "シトラスノート", "");
-		Perfume p3 = new Perfume(3, "グリーンノート", "");
-		Perfume p4 = new Perfume(4, "スパイシーノート", "");
-		Perfume p5 = new Perfume(5, "オリエンタルノート", "");
-		Perfume p6 = new Perfume(6, "アクアティックノート", "");
-		Perfume p7 = new Perfume(7, "フゼアノート", "");
-		Perfume p8 = new Perfume(8, "レザーノート", "");
-		Perfume p9 = new Perfume(9, "ハーバルノート", "");
-		Perfume p10 = new Perfume(10, "アニマルノート", "");
-		Perfume p11 = new Perfume(11, "バルサムノート", "");
-		Perfume p12 = new Perfume(12, "アンバーノート", "");
-		Perfume p13 = new Perfume(13, "シプレノート", "");
-		Perfume p14 = new Perfume(14, "パウダリーノート", "");
-		Perfume p15 = new Perfume(15, "ムスキーノート", "");
+		//		各種類概要　メモ：\n = 改行
+		Perfume p1 = new Perfume("ウッディノート", "落ち着いた・知的な \n奥深く落ち着いた温かみを感じる香り。木々の頼もしくリラックス感のある香り");
+		Perfume p2 = new Perfume("シトラスノート", "フレッシュ・若々しい \n柑橘系が中心の香り。万人受けしやすいためどんなシーンでも使える");
+		Perfume p3 = new Perfume("グリーンノート", "みずみずしい・青々しい \n草木の水々しいアクティブな印象の香り。万人受けしやすいためどんなシーンでも使える");
+		Perfume p4 = new Perfume("スパイシーノート", "異国情緒な・辛みがある \n薬味や辛味を感じる香り。個性的な香りの中では挑戦しやすく、秋や冬におすすめ");
+		Perfume p5 = new Perfume("オリエンタルノート", "異国情緒な・エキゾチックな \nクセのある甘さを軸にした香り。寝香水やアロマなど、お家で楽しむのも良い");
+		Perfume p6 = new Perfume("アクアティックノート", "みずみずしい・透明感がある \nみずみずしい、ま他は湿り気を感じさせる海のような香り");
+		Perfume p7 = new Perfume("フゼアノート", "包容力のある・メンズっぽい \nナチュラルなハーブや、クマリンが配合された香り");
+		Perfume p8 = new Perfume("レザーノート", "落ち着いた・渋みのある \n大人っぽく、レザージャケットなどの革製品のような香り");
+		Perfume p9 = new Perfume("ハーバルノート", "・ \n");
+		Perfume p10 = new Perfume("アニマルノート", "・ \n");
+		Perfume p11 = new Perfume("バルサムノート", "・ \n");
+		Perfume p12 = new Perfume("アンバーノート", "・ \n");
+		Perfume p13 = new Perfume("シプレノート", "・ \n");
+		Perfume p14 = new Perfume("パウダリーノート", "・ \n");
+		Perfume p15 = new Perfume("ムスキーノート", "・ \n");
+		Perfume p16 = new Perfume("ムスキーノート", "・ \n");
 
 		//		各種類スコア
 		int w_score = 0;
@@ -54,7 +54,7 @@ public class Main {
 		System.out.println("数字で答えてください(1 or 2)");
 		System.out.println(" ");
 
-		System.out.println("Q1:香水は、特に誰と会う時につけたい?");
+		System.out.println("Q1:香水は、特に誰と会う時につけたい?"); //1：
 		System.out.println("1 友人や同僚  2 恋人やパートナー");
 		int ans1 = scan.nextInt();
 
@@ -95,21 +95,5 @@ public class Main {
 		int ans10 = scan.nextInt();
 
 		//		結果
-		//		System.out.println("結果");
-		//		System.out.println("貴方に合う香水は・･・");
-		//		System.out.println("ーーーーーーー");
-		//		System.out.println("【" + resultPerfume.getName() + "】");
-		//		System.out.println("ーーーーーーー");
-		//
-		//		System.out.println(resultPerfume.getArt());
-		//
-		//		System.out.println();
-		//		System.out.println(resultPerfume.getDetail());
-
-		System.out.println();
-		System.out.println("他の候補");
-		System.out.println("・" + p2.getName());
-		System.out.println("・" + p3.getName());
-
 	}
 }

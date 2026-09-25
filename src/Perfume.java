@@ -1,12 +1,10 @@
 
 public class Perfume {
-	private int id;
 	private String name;
 	private String detail;
 
-	public Perfume(int i, String n, String d) {
+	public Perfume(String n, String d) {
 		super();
-		this.id = i;
 		this.name = n;
 		this.detail = d;
 	}
@@ -14,10 +12,6 @@ public class Perfume {
 	//	AAアート内に診断結果を表示
 	public void resultArt() {
 
-	}
-
-	public int getId() {
-		return id;
 	}
 
 	public String getName() {
