@@ -3,14 +3,12 @@ public class Perfume {
 	private int id;
 	private String name;
 	private String detail;
-	private String art;
 
-	public Perfume(int i, String n, String d, String a) {
+	public Perfume(int i, String n, String d) {
 		super();
 		this.id = i;
 		this.name = n;
 		this.detail = d;
-		this.art = a;
 	}
 
 	public int getId() {
@@ -23,10 +21,6 @@ public class Perfume {
 
 	public String getDetail() {
 		return detail;
-	}
-
-	public String getArt() {
-		return art;
 	}
 
 }

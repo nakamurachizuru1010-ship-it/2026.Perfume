@@ -4,36 +4,33 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		//		香水AAART
-		String pbottle1 = """
-				      ( () )
-				     ／)   (＼
-				  .------------.
-				 /              \\
-				|                |
-				|                |
-				|                |
-				\\\\______________// """;
-
-		System.out.println(pbottle1);
+		//		//		香水AAART
+		//		String pbottle1 = """
+		//				      ( () )
+		//				     ／)   (＼
+		//				  .------------.
+		//				 /              \\
+		//				|                |
+		//				|                |
+		//				\\\\______________// """;
 
 		//		各種類概要
 		Perfume p1 = new Perfume(1, "ウッディノート", "落ち着いた・知的な"
-				+ "奥深く落ち着いた温かみを感じる香り", "");
-		Perfume p2 = new Perfume(2, "シトラスノート", "", "");
-		Perfume p3 = new Perfume(3, "グリーンノート", "", "");
-		Perfume p4 = new Perfume(4, "スパイシーノート", "", "");
-		Perfume p5 = new Perfume(5, "オリエンタルノート", "", "");
-		Perfume p6 = new Perfume(6, "アクアティックノート", "", "");
-		Perfume p7 = new Perfume(7, "フゼアノート", "", "");
-		Perfume p8 = new Perfume(8, "レザーノート", "", "");
-		Perfume p9 = new Perfume(9, "ハーバルノート", "", "");
-		Perfume p10 = new Perfume(10, "アニマルノート", "", "");
-		Perfume p11 = new Perfume(11, "バルサムノート", "", "");
-		Perfume p12 = new Perfume(12, "アンバーノート", "", "");
-		Perfume p13 = new Perfume(13, "シプレノート", "", "");
-		Perfume p14 = new Perfume(14, "パウダリーノート", "", "");
-		Perfume p15 = new Perfume(15, "ムスキーノート", "", "");
+				+ "奥深く落ち着いた温かみを感じる香り。木々の頼もしくリラックス感のある香り。");
+		Perfume p2 = new Perfume(2, "シトラスノート", "");
+		Perfume p3 = new Perfume(3, "グリーンノート", "");
+		Perfume p4 = new Perfume(4, "スパイシーノート", "");
+		Perfume p5 = new Perfume(5, "オリエンタルノート", "");
+		Perfume p6 = new Perfume(6, "アクアティックノート", "");
+		Perfume p7 = new Perfume(7, "フゼアノート", "");
+		Perfume p8 = new Perfume(8, "レザーノート", "");
+		Perfume p9 = new Perfume(9, "ハーバルノート", "");
+		Perfume p10 = new Perfume(10, "アニマルノート", "");
+		Perfume p11 = new Perfume(11, "バルサムノート", "");
+		Perfume p12 = new Perfume(12, "アンバーノート", "");
+		Perfume p13 = new Perfume(13, "シプレノート", "");
+		Perfume p14 = new Perfume(14, "パウダリーノート", "");
+		Perfume p15 = new Perfume(15, "ムスキーノート", "");
 
 		//		各種類スコア
 		int w_score = 0;
