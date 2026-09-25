@@ -4,8 +4,22 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
+		//		香水AAART
+		String pbottle1 = """
+				      ( () )
+				     ／)   (＼
+				  .------------.
+				 /              \\
+				|                |
+				|                |
+				|                |
+				\\\\______________// """;
+
+		System.out.println(pbottle1);
+
 		//		各種類概要
-		Perfume p1 = new Perfume(1, "ウッディノート", "落ち着いた・知的な", "");
+		Perfume p1 = new Perfume(1, "ウッディノート", "落ち着いた・知的な"
+				+ "奥深く落ち着いた温かみを感じる香り", "");
 		Perfume p2 = new Perfume(2, "シトラスノート", "", "");
 		Perfume p3 = new Perfume(3, "グリーンノート", "", "");
 		Perfume p4 = new Perfume(4, "スパイシーノート", "", "");
@@ -39,7 +53,7 @@ public class Main {
 		int m_scoer = 0;
 
 		//		結果
-		System.out.println("【貴方に合う香水】");
+		System.out.println("【貴方に合う香水診断】");
 		System.out.println("数字で答えてください(1 or 2)");
 		System.out.println(" ");
 
@@ -84,16 +98,16 @@ public class Main {
 		int ans10 = scan.nextInt();
 
 		//		結果
-		System.out.println("結果");
-		System.out.println("貴方に合う香水は・･・");
-		System.out.println("ーーーーーーー");
-		System.out.println("【" + resultPerfume.getName() + "】");
-		System.out.println("ーーーーーーー");
-
-		System.out.println(resultPerfume.getArt());
-
-		System.out.println();
-		System.out.println(resultPerfume.getDetail());
+		//		System.out.println("結果");
+		//		System.out.println("貴方に合う香水は・･・");
+		//		System.out.println("ーーーーーーー");
+		//		System.out.println("【" + resultPerfume.getName() + "】");
+		//		System.out.println("ーーーーーーー");
+		//
+		//		System.out.println(resultPerfume.getArt());
+		//
+		//		System.out.println();
+		//		System.out.println(resultPerfume.getDetail());
 
 		System.out.println();
 		System.out.println("他の候補");
