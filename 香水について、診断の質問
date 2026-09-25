@@ -14,23 +14,6 @@
  14  パウダリーノート     > p_score
  15  ムスキーノート       > m_score
  16  アロマティックノート > arma_score
- 
- 
- String bottleArt2 = """
-            [===]
-            |   |
-         .--'---'--.
-        /  PERFUME  \\
-        |   ✨ ✨   |
-        '-----------'""";
-        
-        
-        String bottleArt3 = """
-           +-----+
-           |  |  |
-        +--+-----+--+
-        |  .-----.  |
-        |  | EAU |  |
-        |  | PAR |  |
-        |  '-----'  |
-        +-----------+""";
+ ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+ 【 While文について↓ 】
+ https://paiza.jp/works/knowledge/article-java-while-kn#h3c70bcd7bd
