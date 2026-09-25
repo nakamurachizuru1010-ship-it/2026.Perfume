@@ -1,0 +1,36 @@
+// 系統ごとのスコアを保持する変数
+int floralScore = 0;
+int citrusScore = 0;
+int sweetScore = 0;
+int woodScore = 0;
+
+// Q1: 誰と会う時つけたい？
+System.out.println("Q1. 香水は、特に誰と会う時つけたい？");
+System.out.println("1: 友人や同僚 / 2: 好きな人やパートナー");
+int ans1 = scanner.nextInt();
+
+if (ans1 == 1) {
+    citrusScore++; // 友人なら爽やか系に+1
+    woodScore++;
+} else {
+    floralScore++; // 好きな人なら華やか・甘い系に+1
+    sweetScore++;
+}
+
+// ... 同様にQ2〜Q10までスコアを加算していく ...
+
+
+// 最後に一番高かったスコアの系統から香水を選ぶ
+int maxScore = Math.max(Math.max(floralScore, citrusScore), Math.max(sweetScore, woodScore));
+
+Perfume result;
+if (maxScore == floralScore) {
+    // フローラル系の中でさらに絞り込み（例: Q10の回答やランダム）
+    result = perfumeList.get(0); // ローズなど
+} else if (maxScore == citrusScore) {
+    result = perfumeList.get(3); // レモンなど
+} else if (maxScore == sweetScore) {
+    result = perfumeList.get(6); // バニラなど
+} else {
+    result = perfumeList.get(8); // サンダルウッドなど
+}
