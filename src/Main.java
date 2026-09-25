@@ -4,21 +4,21 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		Perfume p1 = new Perfume(1, "ウッディノート", null, null);
-		Perfume p2 = new Perfume(2, "シトラスノート", null, null);
-		Perfume p3 = new Perfume(3, "グリーンノート", null, null);
-		Perfume p4 = new Perfume(4, "スパイシーノート", null, null);
-		Perfume p5 = new Perfume(5, "オリエンタルノート", null, null);
-		Perfume p6 = new Perfume(6, "アクアティックノート", null, null);
-		Perfume p7 = new Perfume(7, "フゼアノート", null, null);
-		Perfume p8 = new Perfume(8, "レザーノート", null, null);
-		Perfume p9 = new Perfume(9, "ハーバルノート", null, null);
-		Perfume p10 = new Perfume(10, "アニマルノート", null, null);
-		Perfume p11 = new Perfume(11, "バルサムノート", null, null);
-		Perfume p12 = new Perfume(12, "アンバーノート", null, null);
-		Perfume p13 = new Perfume(13, "シプレノート", null, null);
-		Perfume p14 = new Perfume(14, "パウダリーノート", null, null);
-		Perfume p15 = new Perfume(15, "ムスキーノート", null, null);
+		Perfume p1 = new Perfume(1, "ウッディノート", "落ち着いた・知的な", "");
+		Perfume p2 = new Perfume(2, "シトラスノート", "", "");
+		Perfume p3 = new Perfume(3, "グリーンノート", "", "");
+		Perfume p4 = new Perfume(4, "スパイシーノート", "", "");
+		Perfume p5 = new Perfume(5, "オリエンタルノート", "", "");
+		Perfume p6 = new Perfume(6, "アクアティックノート", "", "");
+		Perfume p7 = new Perfume(7, "フゼアノート", "", "");
+		Perfume p8 = new Perfume(8, "レザーノート", "", "");
+		Perfume p9 = new Perfume(9, "ハーバルノート", "", "");
+		Perfume p10 = new Perfume(10, "アニマルノート", "", "");
+		Perfume p11 = new Perfume(11, "バルサムノート", "", "");
+		Perfume p12 = new Perfume(12, "アンバーノート", "", "");
+		Perfume p13 = new Perfume(13, "シプレノート", "", "");
+		Perfume p14 = new Perfume(14, "パウダリーノート", "", "");
+		Perfume p15 = new Perfume(15, "ムスキーノート", "", "");
 
 		int w_score = 0;
 		int s_scoer = 0;
@@ -80,5 +80,6 @@ public class Main {
 		System.out.println("Q10:思わず深呼吸したくなる景色は？");
 		System.out.println("1 澄んだ潮風を感じる海  2 木の香りが漂う森");
 		int ans10 = scan.nextInt();
+
 	}
 }
