@@ -29,7 +29,7 @@ public class Main {
 		int f_score = 0;
 		int l_scoer = 0;
 		int h_score = 0;
-		int an_scoer = 0;
+		int ani_scoer = 0;
 		int b_score = 0;
 		int an_score = 0;
 		int c_score = 0;
@@ -42,22 +42,18 @@ public class Main {
 
 		System.out.println("Q1:香水は、特に誰と会う時につけたい?");
 		System.out.println("1 友人や同僚  2 恋人やパートナー");
-		System.out.println("回答> ");
 		int ans1 = scan.nextInt();
 
 		System.out.println("Q2:普段の服装やファッションの系統は？");
 		System.out.println("1 フォーマル  2 カジュアル");
-		System.out.println("回答> ");
 		int ans2 = scan.nextInt();
 
 		System.out.println("Q3:香水をつけることで、どんな印象を与えたい？");
 		System.out.println("1 大人っぽさ･ミステリアス  2 親しみやすさ･清潔感");
-		System.out.println("回答> ");
 		int ans3 = scan.nextInt();
 
 		System.out.println("Q4:割と強い匂いが好き？");
 		System.out.println("1 強いほうが好き  2 酔うから程々が好き");
-		System.out.println("回答> ");
 		int ans4 = scan.nextInt();
 
 		System.out.println("Q5:自分が落ち着く時間帯は？");
@@ -67,27 +63,22 @@ public class Main {
 
 		System.out.println("Q6:休日の過ごし方は？");
 		System.out.println("1 インドアが多い  2 アウトドアが多い");
-		System.out.println("回答> ");
 		int ans6 = scan.nextInt();
 
 		System.out.println("Q7:ほっと一息つくなら？");
 		System.out.println("1 ほのかな甘みと深みのある温かいお茶  2 鼻に抜ける清涼感とスッキリしたお茶");
-		System.out.println("回答> ");
 		int ans7 = scan.nextInt();
 
 		System.out.println("Q8:好きな季節は");
 		System.out.println("1 春・夏  2 秋・冬");
-		System.out.println("回答> ");
 		int ans8 = scan.nextInt();
 
 		System.out.println("Q9:香水に一番求めている効果は");
 		System.out.println("1 リフレッシュ・安心感  2 アピール・印象上げ");
-		System.out.println("回答> ");
 		int ans9 = scan.nextInt();
 
 		System.out.println("Q10:思わず深呼吸したくなる景色は？");
 		System.out.println("1 澄んだ潮風を感じる海  2 木の香りが漂う森");
-		System.out.println("回答> ");
 		int ans10 = scan.nextInt();
 	}
 }
