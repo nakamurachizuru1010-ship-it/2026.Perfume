@@ -51,62 +51,68 @@ public class Main {
 		int m_score = 0;
 		int arma_score = 0;
 
-		//		診断
-		System.out.println("【貴方に合う香水診断】");
-		System.out.println("数字で答えてください 1 or 2 (半角)");
-		System.out.println(" ");
+		//		診断 
+		//メモ：【while文を使う】←条件が満たされるまで繰り返し処理されるのがwhile(if文のみ=入力を間違えた時にループできない。for文は繰り返す回数が予め決まっている）
+		while (true) {
+			System.out.println("【貴方に合う香水診断】");
+			System.out.println("数字で答えてください 1 or 2 (半角)");
+			System.out.println(" ");
 
-		System.out.println("Q1:香水は、特に誰と会う時につけたい?");
-		System.out.println("1 友人や同僚  2 恋人やパートナー");
-		int ans1 = scan.nextInt();
-		if (ans1 == 1) {
-			s_score += 1;
-			g_score += 1;
-			a_score += 1;
-			h_score += 1;
-			ani_score += 1;
-			arma_score += 1;
-
-		} else if (ans1 == 2) {
-			w_score += 1;
-			sp_score += 1;
-			o_score += 1;
-			f_score += 1;
-			l_score += 1;
-			b_score += 1;
-			an_score += 1;
-			c_score += 1;
-			p_score += 1;
-			m_score += 1;
-
-		} else {
-			System.out.println("※ 1 または 2 で入力してください。");
+			System.out.println("Q1:香水は、特に誰と会う時につけたい?");
+			System.out.println("1 友人や同僚  2 恋人やパートナー");
+			int ans1 = scan.nextInt();
+			if (ans1 == 1) {
+				s_score += 1;
+				g_score += 1;
+				a_score += 1;
+				h_score += 1;
+				ani_score += 1;
+				arma_score += 1;
+				break;
+			} else if (ans1 == 2) {
+				w_score += 1;
+				sp_score += 1;
+				o_score += 1;
+				f_score += 1;
+				l_score += 1;
+				b_score += 1;
+				an_score += 1;
+				c_score += 1;
+				p_score += 1;
+				m_score += 1;
+				break;
+			} else {
+				System.out.println("※ 1 または 2 で入力してください。");
+			}
 		}
 
-		System.out.println("Q2:普段の服装やファッションの系統は？");
-		System.out.println("1 フォーマル  2 カジュアル");
-		int ans2 = scan.nextInt();
-		if (ans2 == 1) {
-			arma_score += 1;
-			w_score += 1;
-			o_score += 1;
-			f_score += 1;
-			b_score += 1;
-			an_score += 1;
-			c_score += 1;
-			p_score += 1;
-			m_score += 1;
-
-		} else if (ans2 == 2) {
-			s_score += 2;
-			g_score += 2;
-			a_score += 1;
-			h_score += 1;
-			ani_score += 1;
-			l_score += 1;
-			sp_score += 1;
-		} else {
-			System.out.println("※ 1 または 2 で入力してください。");
+		while (true) {
+			System.out.println("Q2:普段の服装やファッションの系統は？");
+			System.out.println("1 フォーマル  2 カジュアル");
+			int ans2 = scan.nextInt();
+			if (ans2 == 1) {
+				arma_score += 1;
+				w_score += 1;
+				o_score += 1;
+				f_score += 1;
+				b_score += 1;
+				an_score += 1;
+				c_score += 1;
+				p_score += 1;
+				m_score += 1;
+				break;
+			} else if (ans2 == 2) {
+				s_score += 2;
+				g_score += 2;
+				a_score += 1;
+				h_score += 1;
+				ani_score += 1;
+				l_score += 1;
+				sp_score += 1;
+				break;
+			} else {
+				System.out.println("※ 1 または 2 で入力してください。");
+			}
 		}
 
 		System.out.println("Q3:香水をつけることで、どんな印象を与えたい？");
