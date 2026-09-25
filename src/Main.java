@@ -53,6 +53,7 @@ public class Main {
 
 		//		診断 
 		//メモ：【while文を使う】←条件が満たされるまで繰り返し処理されるのがwhile(if文のみ=入力を間違えた時にループできない。for文は繰り返す回数が予め決まっている）
+		//メモ：【何故intでなくstringのequalsなのか】
 		while (true) {
 			System.out.println("【貴方に合う香水診断】");
 			System.out.println("数字で答えてください 1 or 2 (半角)");
