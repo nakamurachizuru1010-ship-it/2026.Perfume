@@ -10,8 +10,7 @@ public class Perfume {
 	}
 
 	//	AAアート内に診断結果を表示
-	public void printResultCard() {
-		// 名前（文字数に応じた余白調整を自動で行う例）
+	public void ResultCard() {
 		System.out.println("           [===]           ");
 		System.out.println("         .-------.         ");
 		System.out.println("        / 診断結果 \\        ");
