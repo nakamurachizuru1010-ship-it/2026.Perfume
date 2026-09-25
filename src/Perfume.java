@@ -9,9 +9,9 @@ public class Perfume {
 		this.detail = d;
 	}
 
-	//	AAアート内に診断結果を表示
+	//AAアート内に診断結果を表示
 	//メモ：『%s』とは･･･指定した場所に文字を埋め込むためのもの
-	//何故ここに『\n』が必要なのか･･･%sは自動改行ができないため
+	//メモ： 何故ここに『\n』が必要なのか･･･%sは自動改行ができないため
 	public void resultArt() {
 		System.out.println("           [=====]           ");
 		System.out.println("         .---------.         ");
