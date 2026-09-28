@@ -23,7 +23,6 @@ public class Main {
 		Perfume p16 = new Perfume("アロマティックノート", "植物的なナチュラルさ・穏やか \nのどかな田園風景を連想させるような香り。普段使い向き");
 
 		//		各種類スコア
-		int resultPerfume = 0;
 		int w_score = 0;
 		int s_score = 0;
 		int g_score = 0;
@@ -43,7 +42,6 @@ public class Main {
 
 		//		タイトル
 		// title1･・･丸ごと診断　title2･・･結果一覧
-		System.out.println("");
 		System.out.println("【貴方に合う香水診断】");
 		System.out.println("数字で答えてください 1 or 2 (半角おすすめ)");
 		System.out.println("1: 診断スタート");
@@ -53,7 +51,7 @@ public class Main {
 		if (title.equals("1") || title.equals("１")) {
 			//		診断 
 			//メモ：【while文を使う】←条件が満たされるまで繰り返し処理されるのがwhile(if文のみ=入力を間違えた時にループできない。for文は繰り返す回数が予め決まっている）
-			//メモ：【何故intでなくstringのequalsなのか】
+			//メモ：【何故intでなくstringのequalsなのか】･･･回答に文字や記号が入力されるとエラー出るからその対策
 			while (true) {
 				System.out.println("Q1:香水は、特に誰と会う時につけたい?");
 				System.out.println("1: 友人や同僚  2: 恋人やパートナー");
@@ -288,6 +286,7 @@ public class Main {
 			}
 			//		結果
 			// メモ：一番高いスコアを追跡する変数と、結果を入れる変数
+			//メモ：なぜ初期値が-1なのか ･･･ 最初の比較で、どのスコアであっても確実に条件を満たして最大値を更新させるため
 			int maxScore = -1;
 			Perfume resultPerfume1 = p1; // 初期値としてp1をセット
 
